@@ -1,10 +1,11 @@
 header {
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Oswald, Helvetica, sans-serif;
     align-items: center;
     display: flex;
     justify-content: space-between;
     font: uppercase;
+    flex-direction: column;
 }
 
 nav ul {
@@ -25,9 +26,10 @@ nav ul {
     text-decoration: none;
     border-bottom: none;
     color: black;
-    border: 1px solid;
+    border: 2px solid;
     padding: 5px 10px;
-    border-radius: 12px;
+    border-radius: 15px;
+    
 
   }
 
