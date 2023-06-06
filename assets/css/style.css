@@ -64,7 +64,7 @@ nav ul {
     color:white;
     letter-spacing: 4px;
     animation-name: fadeIn;
-    animation-duration: 6s;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
   }
 
@@ -89,6 +89,7 @@ nav ul {
   justify-content: center;
   text-align: center;
   
+  
 }
 
 .hero2 h1, h2 {
@@ -96,7 +97,5 @@ nav ul {
   font-size: 48px;
   color:white;
   letter-spacing: 4px;
-  animation-name: fadeIn;
-  animation-duration: 6s;
-  animation-fill-mode: forwards;
+  
 }
