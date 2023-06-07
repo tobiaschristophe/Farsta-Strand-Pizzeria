@@ -135,11 +135,11 @@ nav ul {
     .feedback-form {
       width: 300px;
       margin: 0 auto;
+      
     }
     
     .feedback-form h3 {
       text-align: center;
-      
       color: #fff;
       }
     
@@ -150,12 +150,12 @@ nav ul {
       display: block;
       width: 100%;
       margin-bottom: 10px;
-      
-      color: #fff;
+     color: #fff;
     }
     
     .feedback-form textarea {
       height: 200px;
+      
     }
     
     .feedback-form button {
