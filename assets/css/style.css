@@ -1,27 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-body {font-family: 'Permanent Marker', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
 
+body {
+  font-family: 'Shadows Into Light', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  
 }
 header {
     padding: 20px;
-    
     align-items: center;
     display: flex;
     justify-content: space-between;
     font: uppercase;
     flex-direction: column;
-    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
+    
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    font-family: 
+    margin-top: 20px;
+     
   }
 
   nav li {
-    margin-left: 10px;
+    margin-left: 30px;
     }
 
   nav a:hover {
@@ -36,7 +45,7 @@ nav ul {
     border: 2px solid;
     padding: 5px 10px;
     border-radius: 15px;
-    font-family: 'Permanent Marker', cursive;
+    
     
     
 
@@ -91,7 +100,7 @@ nav ul {
 
 /* about section hero-image */
 .hero2 {
-  background-image: url(../images/pizza2.jpg);
+  background-image: url(../images/restaurant1.jpg);
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -156,6 +165,10 @@ nav ul {
       padding: 10px;
       cursor: pointer;
       border-radius: 20px;
+    }
+
+    .hero-content {
+      font-size: 20px;
     }
 
 
