@@ -1,16 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {font-family: 'Permanent Marker', cursive;
+
+}
 header {
     padding: 20px;
-    font-family: Oswald, Helvetica, sans-serif;
+    
     align-items: center;
     display: flex;
     justify-content: space-between;
     font: uppercase;
     flex-direction: column;
+    font-family: 'Permanent Marker', cursive;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
+    font-family: 
   }
 
   nav li {
@@ -29,6 +36,8 @@ nav ul {
     border: 2px solid;
     padding: 5px 10px;
     border-radius: 15px;
+    font-family: 'Permanent Marker', cursive;
+    
     
 
   }
@@ -56,16 +65,18 @@ nav ul {
     justify-content: center;
     text-align: center;
     
+    
   }
 
   .hero h1, h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 48px;
     color:white;
     letter-spacing: 4px;
     animation-name: fadeIn;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+    margin-bottom: 100px;
   }
 
   /* animation for hero-image text */
@@ -92,15 +103,16 @@ nav ul {
 
 /* about section hero-image text */
 .hero2 h1, h2 {
-  font-family: Arial, Helvetica, sans-serif;
+  
   font-size: 48px;
   color:white;
   letter-spacing: 4px;
+  
   }
 
   /* feedback section hero-image */
   .hero3 {
-    background-image: url(../images/pizza3.jpg);
+    background-image: url(../images/takeaway.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -108,6 +120,7 @@ nav ul {
     align-items: center;
     justify-content: center;
     text-align: center;
+  }
 
     /* feedback section form */
     .feedback-form {
@@ -117,9 +130,9 @@ nav ul {
     
     .feedback-form h3 {
       text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
       
-    }
+      color: #fff;
+      }
     
     .feedback-form label,
     .feedback-form input,
@@ -128,7 +141,8 @@ nav ul {
       display: block;
       width: 100%;
       margin-bottom: 10px;
-      font-family: Arial, Helvetica, sans-serif;
+      
+      color: #fff;
     }
     
     .feedback-form textarea {
@@ -141,10 +155,14 @@ nav ul {
       border: none;
       padding: 10px;
       cursor: pointer;
-     
+      border-radius: 20px;
     }
+
+
+
+
     
-    
+   
     
     
     
