@@ -57,6 +57,7 @@ nav ul {
     border-bottom: none;
     letter-spacing: 4px;
     size: 100%;
+    font-style: bold;
   }
   
   .logo a:hover {
@@ -78,7 +79,6 @@ nav ul {
   }
 
   .hero h1, h2 {
-    
     font-size: 48px;
     color:white;
     letter-spacing: 4px;
@@ -108,11 +108,11 @@ nav ul {
   align-items: center;
   justify-content: center;
   text-align: center;
+  
   }
 
 /* about section hero-image text */
 .hero2 h1, h2 {
-  
   font-size: 48px;
   color:white;
   letter-spacing: 4px;
@@ -141,6 +141,8 @@ nav ul {
     .feedback-form h3 {
       text-align: center;
       color: #fff;
+      font-size: 25px;
+      
       }
     
     .feedback-form label,
@@ -150,7 +152,8 @@ nav ul {
       display: block;
       width: 100%;
       margin-bottom: 10px;
-     color: #fff;
+      color: #fff;
+      font-size: 25px;
     }
     
     .feedback-form textarea {
@@ -168,8 +171,15 @@ nav ul {
     }
 
     .hero-content {
-      font-size: 20px;
+      background-color: rgba(0, 0, 0, .4);
+      width: 100%;
+      max-width: 1200px; 
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
     }
+
+    
 
 
 
