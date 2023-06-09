@@ -182,33 +182,60 @@ nav ul {
     }
 
 
-  
-
-
-  
-    /* media-queris */
-    /* for larger to medium screens 1200px wide and down */
-    @media  and (max-width: 1200px;) {
-      .logo{
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-      }
-  }
-    
-  /* for medium screens 950px wide and down */
-  @media  and (max-width: 950px;){
-
+ /* Styles for smaller screens (up to 480px) */
+@media only screen and (max-width: 480px) {
+  header {
+    font-size: 20px;
   }
 
+  nav li {
+    margin-left: 15px;
+  }
 
+  .hero h1, .hero h2, .hero2 h1, .hero2 h2, .hero3 h1, .hero3 h2 {
+    font-size: 32px;
+  }
 
+  .feedback-form {
+    width: 90%;
+  }
+}
 
+/* Styles for medium-sized screens (between 481px and 768px) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    font-size: 20px;
+  }
 
-    
-   
-    
-    
-    
-    
-    
+  nav li {
+    margin-left: 20px;
+  }
+
+  .hero h1, .hero h2, .hero2 h1, .hero2 h2, .hero3 h1, .hero3 h2 {
+    font-size: 40px;
+  }
+
+  .feedback-form {
+    width: 80%;
+  }
+}
+
+/* Styles for larger screens (above 768px) */
+@media only screen and (min-width: 769px) {
+  header {
+    font-size: 25px;
+  }
+
+  nav li {
+    margin-left: 30px;
+  }
+
+  .hero h1, .hero h2, .hero2 h1, .hero2 h2, .hero3 h1, .hero3 h2 {
+    font-size: 48px;
+  }
+
+  .feedback-form {
+    width: 70%;
+  }
+}
+
