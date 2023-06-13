@@ -46,18 +46,27 @@ nav ul {
     border-radius: 15px;
     }
 
-  .logo a {
-    text-decoration: none;
-    color: #333;
-    border-bottom: none;
-    letter-spacing: 4px;
-    size: 100%;
-    font-family: 'Bangers', sans-serif;
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-  
-  .logo a:hover {
-    color: grey;
-  }
+    
+    .logo a {
+      text-decoration: none;
+      color: #333;
+      border-bottom: none;
+      letter-spacing: 4px;
+      font-size: 30px;
+      font-family: 'Bangers', sans-serif;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    .logo a:hover {
+      color: grey;
+    }
 
   /* hero-image */
   .hero {
@@ -175,11 +184,54 @@ nav ul {
       box-sizing: border-box;
     }
 
-    .footer-content {
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-      height: 50px;
-    }
+  /* footer */
+
+  footer {
+    height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  }
+  footer i {
+    color: black;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer li {
+    display: inline;
+  }
+  
+  footer i {
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-networks {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-networks > li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+  }
 
 
  /* Styles for smaller screens (up to 480px) */
